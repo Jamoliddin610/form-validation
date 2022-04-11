@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+
+    #validation{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    input{
+        padding: 10px 20px;
+        border: solid 1px black;
+        border-radius: 8px;
+        outline: none;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: rgb(69, 163, 69);
+        border: none;
+        border-radius: 20px ;
+        color: #fff;
+        font-weight: 600;
+    }
+    .result{
+        color: rgb(151, 151, 151);
+        font-size: 12px;
+        font-weight: 700;
+
+    }
+    div{
+        width: 100%;
+         input{
+        padding: 10px 20px;
+        border: solid 1px black;
+        border-radius: 8px;
+        outline: none;
+        width: 100%;
+
+    }
+    }
+}

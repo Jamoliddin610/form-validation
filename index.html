@@ -6,13 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.min.css">
   <title>Document</title>
-</head>
-
+</head> 
 <body>
-
+  <div class="container">
+    <form id="validation">
+    <input type="text" placeholder="name" id="name">
+    <p class="result" id="name-result">Please enter your name</p>
+    <input type="text" placeholder="surname" id="surname">
+    <p class="result" id="surname-result">Please enter your surname</p>
+    <input type="number" placeholder="tel" id="tel">
+    <p class="result" id="tel-result">Please enter your telephone</p>
+    <input type="email" placeholder="email" id="email">
+    <p class="result" id="email-result">Please enter your email adress</p>
+    <input type="password" placeholder="password" id="password">
+    <p class="result" id="password-result">Please enter your password</p>
+    <button type="submit" id="btn">Btn</button>
+  </form>
+  </div>
   <script src="js/main.js"></script>
 </body>
 
-</html>
+</html> 
